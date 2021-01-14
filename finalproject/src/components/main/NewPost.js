@@ -40,7 +40,6 @@ const NewPost = () => {
       e.stopPropagation();
       alert("There is an error");
     } else {
-      // AlertSuccess()
       axios.post("http://localhost:3001/posts", newPost).then((res) => {
         console.log(res.data);
         
