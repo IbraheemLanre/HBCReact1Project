@@ -1,0 +1,32 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post1",
+      "author": "Margit",
+      "desc": "Morbi sed aliquet nisi, in efficitur risus. Donec porttitor facilisis pulvinar. Maecenas porta eros eget dui ultrices sollicitudin. Vestibulum suscipit, libero eu vehicula cursus, metus ante vestibulum nisi, sed sollicitudin nisl ex ac arcu. ",
+      "img": "https://source.unsplash.com/1600x900/?sky"
+    },
+    {
+      "id": 2,
+      "title": "Post2",
+      "author": "Margit",
+      "desc": "Morbi non venenatis diam. Praesent ante diam, efficitur sit amet dui at, ultrices venenatis ex. Mauris tristique, nunc eu volutpat pulvinar, magna neque tempor quam, vel sodales dolor risus at massa.",
+      "img": "https://source.unsplash.com/1600x900/?forest"
+    },
+    {
+      "id": 3,
+      "title": "Post3",
+      "author": "Jane",
+      "desc": "Quisque ut libero porttitor, aliquam felis ac, molestie arcu. Pellentesque sit amet tortor efficitur tellus pharetra ultrices. Quisque quis pretium massa. Duis consectetur porttitor pellentesque.",
+      "img": "https://source.unsplash.com/1600x900/?nature"
+    },
+    {
+      "id": 4,
+      "title": "Post4",
+      "author": "Jane",
+      "desc": "Quisque malesuada felis quam, eget egestas nisi pharetra sed. Quisque vulputate mauris placerat eros finibus rhoncus malesuada in tellus. Ut accumsan risus quam, in fermentum lectus suscipit non. Phasellus in semper nisl.",
+      "img": "https://source.unsplash.com/1600x900/?mountain"
+    }
+  ]
+}
