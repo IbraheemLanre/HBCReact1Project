@@ -33,33 +33,6 @@ const NewPost = () => {
     }
   };
 
-  // const AlertError = () => {
-  //   const [show, setShow] = useState(true);
-  //   if (show) {
-  //     return (
-  //       <Alert variant="danger" onClose={() => setShow(false)} dismissible>
-  //         <Alert.Heading>Not submitted! You got an error!</Alert.Heading>
-  //       </Alert>
-  //     );
-  //   }
-  // };
-
-  // const AlertSuccess = () => {
-  //   const [show, setShow] = useState(true);
-  //   return (
-  //     <>
-  //       <Alert show={show} variant="success">
-  //         <Alert.Heading>Blog was posted</Alert.Heading>
-  //         <div className="d-flex justify-content-end">
-  //       <Button onClick={() => setShow(false)} variant="outline-success">
-  //         Close
-  //       </Button>
-  //     </div>
-  //       </Alert>
-  //     </>
-  //   );
-  // };
-
   const addPostHandler = (e) => {
     const form = e.currentTarget;
     if (form.checkValidity() === false) {
