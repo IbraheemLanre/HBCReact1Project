@@ -1,11 +1,17 @@
-import './App.css';
+import React from "react";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
+import { BrowserRouter as Router } from "react-router-dom";
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <Header />
+      <Main />
+    </Router>
   );
-}
+};
 
 export default App;
